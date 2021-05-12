@@ -4,3 +4,24 @@ header{
 header a{
   color: #FFF;
 }
+@media screen and (max-width: 760px){
+  .parralax{
+    background: url(image/mangerxs.jpg) no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    height: 500px;
+    padding: 0;
+    margin: 0;
+  }
+}
+@media screen and (max-width: px){
+  .parralax{
+    background: url(image/mangerxs.jpg) no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    height: 500px;
+    padding: 0;
+    margin: 0;
+  }
+}
+ 
