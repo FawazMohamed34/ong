@@ -1,6 +1,12 @@
 
 
 $header :rgba(83, 77, 77, 0.56) ;
+$xs: 0;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
 
 header{
     background-color:$header;
@@ -8,9 +14,24 @@ header{
   color:inherit;
 }
 }
+<<<<<<< HEAD
 $myred :#EA495F;
   
  .mybtn{
   border-radius: 3rem;
   background:$myred;
  };
+=======
+@mixin parralax($url){
+  background: ($url);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+}
+  .parralax{
+    @include parralax(url(image/manger.jpg));
+    }
+
+
+
+>>>>>>> b1f2d01 (ft-Parralax with img in only one size)

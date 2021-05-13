@@ -11,5 +11,12 @@ header a {
   border-radius: 3rem;
   background: #EA495F;
 }
+
+.parralax {
+  background: url(image/manger.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+}
 /*# sourceMappingURL=style.css.map */
 
