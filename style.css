@@ -1,6 +1,4 @@
-
-
-main {
+body {
   background: #84a583;
 }
 
@@ -12,6 +10,11 @@ header {
   background-color: rgba(83, 77, 77, 0.56);
 }
 
+.mybtn {
+  border-radius: 3rem;
+  background: #EA495F;
+}
+
 .parralax {
   background: url(image/manger.jpg);
   background-size: cover;
@@ -20,15 +23,6 @@ header {
   margin: 0;
   padding: 0;
 }
-
-
-
-.mybtn {
-  border-radius: 3rem;
-  background: #EA495F;
-}
-
-
 
 .myCard {
   margin-bottom: 30px;
@@ -40,10 +34,12 @@ header {
   margin-bottom: 30px;
 }
 
+h3 {
+  color: #365335;
+}
 
 .bg-h3 {
   height: 250px;
   color: #365335;
 }
-
 /*# sourceMappingURL=style.css.map */

@@ -3,7 +3,7 @@ $mygreen:#84a583;
 $greentitle:#365335;
 $mypink: #FDCEA9;
 $header :rgba(83, 77, 77, 0.56) ;
-
+$myred: #EA495F; 
 //For background
 
 %bg-body {
@@ -24,24 +24,12 @@ $xxl: 1400px;
 header{
     background-color:$header;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-$myred :#EA495F;
-  
+ 
  .mybtn{
   border-radius: 3rem;
-  background:$myred;
+  background: $myred;
  };
-=======
-=======
 
-
->>>>>>> 533ae40 (ft/Add 3 new card with img)
-=======
-
-
->>>>>>> f260a42ca2eab442e1267fe3a674b3b4d7a3c98e
 @mixin parralax($url){
   background: ($url);
   background-size: cover;
@@ -49,50 +37,21 @@ $myred :#EA495F;
   height: 600px;
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
+
 }
   .parralax{
     @include parralax(url(image/manger.jpg));
     };
 
-<<<<<<< HEAD
->>>>>>> b1f2d01 (ft-Parralax with img in only one size)
-=======
-main{
-<<<<<<< HEAD
-  @extend %bg-perso;
-<<<<<<< HEAD
-}
->>>>>>> f1d66c2 (ft/Add 3 card of presentation)
-=======
-=======
-  @extend %bg-body;
->>>>>>> d27ce43 (Add h3 citation)
-=======
-}
-  .parralax{
-    @include parralax(url(image/manger.jpg));
-    };
 
-main{
-  @extend %bg-body;
->>>>>>> f260a42ca2eab442e1267fe3a674b3b4d7a3c98e
+body{
+@extend %bg-body ;
+
 };
 
 .myCard{
   margin-bottom: 30px;
-<<<<<<< HEAD
 
-  &:hover{
-transform: scale(1.1);
-margin-bottom: 30px;
-  }
-};
-<<<<<<< HEAD
->>>>>>> 533ae40 (ft/Add 3 new card with img)
-=======
-
-=======
 
   &:hover{
 transform: scale(1.1);
@@ -100,14 +59,13 @@ margin-bottom: 30px;
   }
 };
 
->>>>>>> f260a42ca2eab442e1267fe3a674b3b4d7a3c98e
+
+h3{
+  color:$greentitle;
+
+};
 .bg-h3{
 @extend %bg-title;
 height: 250px;
 color:$greentitle;
-<<<<<<< HEAD
-}
->>>>>>> d27ce43 (Add h3 citation)
-=======
-}
->>>>>>> f260a42ca2eab442e1267fe3a674b3b4d7a3c98e
+};
