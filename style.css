@@ -1,16 +1,27 @@
 
+
 main {
   background: #84a583;
 }
 
+.bg-h3 {
+  background: #FDCEA9;
+}
 
 header {
   background-color: rgba(83, 77, 77, 0.56);
 }
 
-header a {
-  color: inherit;
+.parralax {
+  background: url(image/manger.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+  margin: 0;
+  padding: 0;
 }
+
+
 
 .mybtn {
   border-radius: 3rem;
@@ -28,5 +39,11 @@ header a {
           transform: scale(1.1);
   margin-bottom: 30px;
 }
-/*# sourceMappingURL=style.css.map */
 
+
+.bg-h3 {
+  height: 250px;
+  color: #365335;
+}
+
+/*# sourceMappingURL=style.css.map */

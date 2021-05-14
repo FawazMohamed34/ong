@@ -1,9 +1,19 @@
+//For color
+$mygreen:#84a583;
+$greentitle:#365335;
+$mypink: #FDCEA9;
+$header :rgba(83, 77, 77, 0.56) ;
 
-%bg-perso {
-  background :#84a583;
+//For background
+
+%bg-body {
+  background : $mygreen ;
+};
+%bg-title{
+  background:$mypink;
 };
 
-$header :rgba(83, 77, 77, 0.56) ;
+//For mediaQuery
 $xs: 0;
 $sm: 576px;
 $md: 768px;
@@ -14,6 +24,7 @@ $xxl: 1400px;
 header{
     background-color:$header;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 $myred :#EA495F;
@@ -27,6 +38,10 @@ $myred :#EA495F;
 
 
 >>>>>>> 533ae40 (ft/Add 3 new card with img)
+=======
+
+
+>>>>>>> f260a42ca2eab442e1267fe3a674b3b4d7a3c98e
 @mixin parralax($url){
   background: ($url);
   background-size: cover;
@@ -34,6 +49,7 @@ $myred :#EA495F;
   height: 600px;
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
 }
   .parralax{
     @include parralax(url(image/manger.jpg));
@@ -43,20 +59,55 @@ $myred :#EA495F;
 >>>>>>> b1f2d01 (ft-Parralax with img in only one size)
 =======
 main{
+<<<<<<< HEAD
   @extend %bg-perso;
 <<<<<<< HEAD
 }
 >>>>>>> f1d66c2 (ft/Add 3 card of presentation)
 =======
+=======
+  @extend %bg-body;
+>>>>>>> d27ce43 (Add h3 citation)
+=======
+}
+  .parralax{
+    @include parralax(url(image/manger.jpg));
+    };
+
+main{
+  @extend %bg-body;
+>>>>>>> f260a42ca2eab442e1267fe3a674b3b4d7a3c98e
 };
 
 .myCard{
   margin-bottom: 30px;
-  
+<<<<<<< HEAD
 
   &:hover{
 transform: scale(1.1);
 margin-bottom: 30px;
   }
 };
+<<<<<<< HEAD
 >>>>>>> 533ae40 (ft/Add 3 new card with img)
+=======
+
+=======
+
+  &:hover{
+transform: scale(1.1);
+margin-bottom: 30px;
+  }
+};
+
+>>>>>>> f260a42ca2eab442e1267fe3a674b3b4d7a3c98e
+.bg-h3{
+@extend %bg-title;
+height: 250px;
+color:$greentitle;
+<<<<<<< HEAD
+}
+>>>>>>> d27ce43 (Add h3 citation)
+=======
+}
+>>>>>>> f260a42ca2eab442e1267fe3a674b3b4d7a3c98e
