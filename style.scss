@@ -1,4 +1,7 @@
 
+%bg-perso {
+  background :#84a583;
+};
 
 $header :rgba(83, 77, 77, 0.56) ;
 $xs: 0;
@@ -30,8 +33,12 @@ $myred :#EA495F;
 }
   .parralax{
     @include parralax(url(image/manger.jpg));
-    }
+    };
 
-
-
+<<<<<<< HEAD
 >>>>>>> b1f2d01 (ft-Parralax with img in only one size)
+=======
+main{
+  @extend %bg-perso;
+}
+>>>>>>> f1d66c2 (ft/Add 3 card of presentation)
