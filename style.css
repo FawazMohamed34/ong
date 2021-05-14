@@ -5,4 +5,9 @@ header {
 header a {
   color: inherit;
 }
+
+.mybtn {
+  border-radius: 3rem;
+  background: #EA495F;
+}
 /*# sourceMappingURL=style.css.map */
