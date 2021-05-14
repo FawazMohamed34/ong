@@ -17,11 +17,16 @@ header a {
   background: #EA495F;
 }
 
-.parralax {
-  background: url(image/manger.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  height: 600px;
+
+
+.myCard {
+  margin-bottom: 30px;
+}
+
+.myCard:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  margin-bottom: 30px;
 }
 /*# sourceMappingURL=style.css.map */
 

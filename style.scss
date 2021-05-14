@@ -13,10 +13,8 @@ $xxl: 1400px;
 
 header{
     background-color:$header;
-& a{
-  color:inherit;
 }
-}
+<<<<<<< HEAD
 <<<<<<< HEAD
 $myred :#EA495F;
   
@@ -25,11 +23,17 @@ $myred :#EA495F;
   background:$myred;
  };
 =======
+=======
+
+
+>>>>>>> 533ae40 (ft/Add 3 new card with img)
 @mixin parralax($url){
   background: ($url);
   background-size: cover;
   background-attachment: fixed;
   height: 600px;
+  margin: 0;
+  padding: 0;
 }
   .parralax{
     @include parralax(url(image/manger.jpg));
@@ -40,5 +44,19 @@ $myred :#EA495F;
 =======
 main{
   @extend %bg-perso;
+<<<<<<< HEAD
 }
 >>>>>>> f1d66c2 (ft/Add 3 card of presentation)
+=======
+};
+
+.myCard{
+  margin-bottom: 30px;
+  
+
+  &:hover{
+transform: scale(1.1);
+margin-bottom: 30px;
+  }
+};
+>>>>>>> 533ae40 (ft/Add 3 new card with img)
