@@ -12,11 +12,11 @@
   <header class="row w-100 m-0 fixed-top">
     <div class="col">
     <nav class="navbar navbar-expand-lg ">
-      <a href="index.html" class="navbar-brand ">
-        <img src="image/ongl.png" id="logo" alt="Sdf-sos-ong">
+      <a href="index.html" class="navbar-brand">
+        <img src="image/ongl.png" id="logo" alt="Sdf-sos-logo">
       </a>
       <button class="btn mybtn order-lg-3 text-white" type="submit">Faire un don</button>
-      <button class="navbar-toggler btn" type="submit" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+      <button class="navbar-toggler btn" type="submit" data-ts-toggle="collapse" data-ts-target="#navbarNav" 
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <svg xmlns="http://www.w3.org/2000/svg" width="50" height="40" fill="currentColor" class="bi bi-three-dots " viewBox="0 0 16 16">
       <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
@@ -151,7 +151,7 @@
 
       <div class="row w-100 ">
         <div class="col-12 col-lg-6">
-          <img src="image/volontaire.jpg" class="w-100" alt="...">
+          <img src="image/volontaire.jpg" class="rounded w-100" alt="Image d'une journéé avec nos volontaires">
         </div>
         <div class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center">
           <h3 class="display-2">Nous rejoindre</h3>
@@ -171,7 +171,7 @@
 
 
                                                        <!--  LINK SOCIAL  FOR SMALL SCREEN        -->
-    <section class="container-fluid bg-primary mt-2 d-lg-none">
+    <section class="container-fluid bg-primary mt-2 d-md-none">
       <div class="row h-100 w-100">
 
         <div class="col d-flex justify-content-center ">
@@ -228,10 +228,31 @@
       </div>
       
     </section>
-    <footer class="container-fluid bg-white">
+
+  </main>
+
+                                                       <!--                   FOOTTER               -->
+
+    <footer class="container-fluid bg-white justify-content-around  p-2">
       <div class="row w-100">
-        <div class="col-12 cols-lg-4 d-flex justify-content-center">
-          <div class="card border-0">
+        <div class="col col-md-4 d-flex justify-content-center order-md-3">
+          <div class="card border-0 fw-bold mt-3">
+            <div class="card-head">
+            <div class="text-center fw-bold">Liens utiles</div>
+          </div>
+            <div class="card-body btn-group-vertical">
+              <a href="#" class="btn disabled">Accueil</a>
+              <a href="#" class="btn">Presse</a>
+              <a href="#" class="btn">Nous contacter</a>
+              <a href="#" class="btn">Evenements</a>
+            </div>
+          </div>
+
+          </div>
+        
+        <div class="col-12 col-md-4 d-flex justify-content-center">
+
+          <div class="card border-0 p-2 order-md-1" style="width: 18rem;">
             <div class="card-body">
               <h5 class="card-title fw-bold mb-3">SDF SOS</h5>
               <p></p>
@@ -240,9 +261,12 @@
               <p class="card-text"><span class="fw-bold">Telephone : </span>01 02 03 04 05</p>
             </div>
         </div>
+
        </div>
-        <div class="col-12 col-lg-4 d-flex justify-content-center">
-          <div class="card border-0">
+
+        <div class="col-12 col-md-4 d-flex justify-content-center order-md-2">
+
+          <div class="card border-0 p-2">
             <div class="card-body">
               <h5 class="card-title">S'informer c'est déja agir</h5>
               <label for="newslatter" class="card-text">Abonnez vous aux newsletters</label>
@@ -250,12 +274,9 @@
             </div>
           </div>     
         </div>
-        <div class="col-12 col-lg-4">
-          </div>
       
       </div>  
     </footer>
 
-</main>
-  </body>
+   </body>
   </html>
